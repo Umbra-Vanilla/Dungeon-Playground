@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Option Tablet.unity
     guid: d24d0af629b649e40ab512df13124979
+  - enabled: 1
+    path: Assets/Scenes/Scene4.unity
+    guid: 420d73057d1c5a44c8a096ef6b3eb915
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
