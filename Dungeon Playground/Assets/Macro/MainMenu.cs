@@ -5,23 +5,30 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-  public void PlayGame()
-  {
-	  //You can change '1' with scene name; ("SampleScene")
-	  SceneManager.LoadSceneAsync(1);
-  }
+	public void PlayGame()
+	{
+		//You can change '1' with scene name; ("SampleScene")
+		SceneManager.LoadSceneAsync(1);
+	}
 
-  public void QuitGame()
-  {
-	  SceneManager.LoadSceneAsync(6);
-  }
-  public void Options()
+	public void QuitGame()
+	{
+		SceneManager.LoadSceneAsync(6);
+	}
+	public void Options()
 	{
 
-	SceneManager.LoadSceneAsync(4);
+		SceneManager.LoadSceneAsync(4);
 	}
-  public void Back()
+	public void Back()
 	{
 		SceneManager.LoadSceneAsync(0);
 	}
+	public void End()
+	{
+        SceneManager.LoadSceneAsync(8);
+	}
+		
+	    
+		
 }
